@@ -5,7 +5,7 @@
 Add the following to your mix.exs file
 ```elixir
 def deps do
-  [{:persian, "~> 0.1.0"}]
+  [{:persian, "~> 0.1.3"}]
 end
 ```
 
