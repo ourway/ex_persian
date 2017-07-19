@@ -3,7 +3,7 @@ defmodule Persian.Mixfile do
 
   def project do
     [app: :persian,
-     version: "0.1.0",
+     version: "0.1.1",
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -25,7 +25,7 @@ defmodule Persian.Mixfile do
     # These are the default files included in the package
     [
       name: :persian,
-      files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+      files: ["lib", "mix.exs", "README*", "config", "test"],
       maintainers: ["Farsheed Ashouri"],
       licenses: ["Apache 2.0"],
       links: %{"GitHub" => "https://github.com/ourway/ex_persian"}
